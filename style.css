@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root {
+    --white:hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray:hsl(0, 0%, 55%);
+    --very-dark-gray:hsl(0, 0%, 41%);
+    --ff-alata: "Alata", sans-serif;
+    --ff-josefin: "Josefin Sans", serif;
+
+}
+
+
+.loopimage {
+    background-image: url("assets/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 43.75rem;
+    /* height: 100vh; */
+}
+
+.loop-studio h1 {
+    color: var(--white);
+    font-size: 40px;
+    font-family: var(--ff-alata);
+    font-weight: 700;
+
+}
+
+.nav-Link{
+    color: var(--white);
+    font-size: 15px;
+    font-family: var(--ff-alata);
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+}
+
+.immerse-border {
+    border: 2px solid var(--white);
+    width: 37%;
+    margin-top: 9rem;
+}
+
+.immerse-border h1 {
+    padding: 23px 34px 20px 34px;
+    color: var(--white);
+    font-size: 50px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    width:440px;
+   
+}
+
+.flex-loop{
+    width: 100%;
+    height: auto;
+
+}
+
+.loop-imagess {
+    width: 54%;
+    /* height: auto; */
+}
+
+.loop-mobile-img {
+    width: 100%;
+}
+
+.loop-mobile{
+    display: none;
+}
+
+.loop-desktop{
+    width: 100%;
+    display: block;
+}
+
+.loop-desktop-img {
+    width: 100%;
+}
+
+.leader {
+    width: 46%;
+    background-color: var(--white);
+    padding: 5rem 5rem 3rem 5rem;
+    margin: 0 auto;
+    position: absolute;
+    right: 12%;
+    top: 35%;
+}
+
+.leader h1 {
+    color: var(--black);
+    font-size: 43px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    /* border: 2px solid ; */
+}
+
+.leader p {
+    color: var(--very-dark-gray);
+    font-size: 15px;
+    font-family: var(--ff-alata);
+    font-weight: 400;
+    width: 440px;
+}
+
+.section-2 {
+    margin-top: 7rem;
+}
+
+.icon-hamburger {
+    background-color: var(--black) ;
+}
+
+.mobile-image-text {
+    display: none;
+}
+
+.desktop-image-text {
+    display: block;
+    margin-top: 8rem;
+}
+
+.our {
+    color: var(--black);
+    font-size: 40px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+}
+
+.SEE-ALL {
+    color: var(--black);
+    font-size: 15px;
+    font-family: var(--ff-alata);
+    font-weight: 400;
+    letter-spacing: 5px;
+    border: 1px solid var(--black);
+    outline: none;
+    background-color: var(--white);
+    width: 170px;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+
+.SEE-ALL:hover {
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* .gapss{
+    gap: 10px;
+} */
+ 
+/* .space-width {
+    width: 25%;
+     height: 100%; 
+} */
+
+
+.earth {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 7%;
+    left: 16%;
+    width: 100px;
+    line-height: 1.7rem;
+}
+
+.arcade{
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 7%;
+    left: 16%;
+    width: 120px;
+    line-height: 1.7rem;
+}
+
+
+.soccer {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 7%;
+    left: 16%;
+    width: 140px;
+    line-height: 1.7rem;
+}
+
+.grid {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 7%;
+    left: 16%;
+    width: 100px;
+    line-height: 1.6rem;
+}
+
+.above-from {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 5%;
+    left: 16%;
+    width: 140px;
+    line-height: 1.8rem;
+}
+
+
+.pocket {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 5%;
+    left: 16%;
+    width: 140px;
+    line-height: 1.8rem;
+}
+
+.curio {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 5%;
+    left: 16%;
+    width: 150px;
+    line-height: 1.7rem;
+}
+
+.make {
+    color: var(--white);
+    font-size: 27px;
+    font-family: var(--ff-josefin);
+    font-weight: 300;
+    position: absolute;
+    bottom: 5%;
+    left: 16%;
+    width: 140px;
+    line-height: 1.7rem;
+}
+
+/* .space-width:hover {
+    cursor: pointer;
+    background: var(--dark-gray);
+
+} */
+
+.space-width:hover .deep-image {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.space-width:hover .earth {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .arcade {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .soccer {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .grid {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .above-from {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .pocket {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .curio {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.space-width:hover .make {
+    color: var(--black);
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.spaces{
+    margin-top: 9rem;
+    background-color: var(--black);
+}
+
+.loop-h3 {
+    color: var(--white);
+    font-size: 28px;
+    font-family: var(--ff-alata);
+    font-weight: 400;
+}
+
+.event p {
+    font-size: 15px;
+    font-family: var(--ff-alata);
+    font-weight: 400;
+    color: var(--white);
+    position: relative;
+    text-decoration: none;
+}
+
+.event p:after {
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+    height: 2px;
+    /* width: 100%; */
+    width: 0;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    margin: 0 auto;
+}
+
+.event p:hover:after {
+    width: 60%;
+    text-align: center;
+}
+
+.event p:hover {
+    cursor: pointer;
+}
+
+.all-right {
+    font-size: 15px;
+    font-family: var(--ff-alata);
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+
+
+.f  {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.f::after {
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+}
+
+.f:hover::after {
+    width: 100%;
+}
+
+.f :hover {
+    cursor: pointer;
+}
+
+.mobile-space {
+    display: none;
+}
+
+
+.nav-Link:after {
+    content: "";
+    position: absolute;
+    background-color: var(--white);
+    height: 2px;
+    /* width: 100%; */
+    width: 0;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    margin: 0 auto;
+}
+
+.nav-Link:hover:after {
+    width: 60%;
+    text-align: center;
+}
+
+.nav-Link:hover {
+    cursor: pointer;
+}
+
+
+
+@media(max-width:767px){
+
+    .omo {
+        padding: 30px 19px !important;
+    }
+    
+    
+    .loop-studio h1 {
+        font-size: 24px;
+    }
+    
+    .loopimage {
+        background-image: none;
+    }
+    
+    .back-image{
+        background-image: url("assets/image-hero (2).jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 34.7rem;
+    }
+        
+   .immerse-border h1 {
+        width: 240px;
+        font-size: 30px;
+        padding: 20px 34px 8px 25px;
+    }
+
+    .immerse-border {
+        margin-top: 9rem;
+        width: 284px;
+        
+    }
+    
+    .nav-links {
+        color: var(--white);
+        font-size: 20px;
+        font-family: var(--ff-josefin);
+        font-weight: 300;
+    }
+
+    
+
+    .loop-desktop{
+        display: none;
+    }
+    
+    .loop-mobile {
+        display: block;
+        width: 100%;
+        margin-bottom: 38px;
+    }
+
+    .loop-mobile-img {
+        width: 100%;
+    }
+
+    .section-2 {
+        padding: 0 16px;
+        margin-top: 4.9rem;
+    }
+
+    .leader h1 {
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .leader p {
+        text-align: center;
+        margin-top: 12px;
+        width: 100%;
+        /* padding: 0 13px; */
+    }
+
+    .flex-loop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loop-imagess {
+        width: 100%;
+    }
+
+    .leader{
+        width: 100%;
+        padding: 10px;
+        position: static;
+        /* top: 100%;
+        right: 0%; */
+    }
+
+    .mobile-image-text {
+        display: block;
+        padding: 0 16px !important;
+        margin-top: 50px;
+    }
+
+    .flex-create{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .deep-earth {
+        color: var(--white);
+        font-size: 20px;
+        font-family: var(--ff-josefin);
+        font-weight: 300;
+        position: absolute;
+        bottom: 9%;
+        left: 6.5%;
+        width: 90px;
+        line-height: 1.4rem;
+    }
+
+    .night {
+        color: var(--white);
+        font-size: 20px;
+        font-family: var(--ff-josefin);
+        font-weight: 300;
+        position: absolute;
+        bottom: 6%;
+        left: 6.5%;
+        width: 100px;
+        line-height: 1.4rem;
+    }
+
+    .above{
+        color: var(--white);
+        font-size: 20px;
+        font-family: var(--ff-josefin);
+        font-weight: 300;
+        position: absolute;
+        bottom: 9%;
+        left: 6.5%;
+        width: 120px;
+        line-height: 1.3rem;
+    }
+
+    .the{
+        color: var(--white);
+        font-size: 20px;
+        font-family: var(--ff-josefin);
+        font-weight: 300;
+        position: absolute;
+        bottom: 6%;
+        left: 6.5%;
+        width: 100px;
+        line-height: 1.4rem;
+    }
+
+    .creative-h1 {
+        color: var(--black);
+        font-size: 25px;
+        font-family: var(--ff-josefin);
+        font-weight: 300;
+        margin-bottom: 34px;
+    }
+
+    .see-all {
+        margin: 0 auto;
+        color: var(--black);
+        font-size: 15px;
+        font-family: var(--ff-alata);
+        font-weight: 400;
+        letter-spacing: 5px;
+        border: 1px solid var(--black);
+        outline: none;
+        background-color: var(--white);
+        width: 57%;
+        padding: 8px 20px;
+    }
+
+    .see-all:hover {
+        background-color: var(--black);
+        color: var(--white);
+        cursor: pointer;
+    }
+
+    .desktop-image-text {
+        display: none;
+    }
+
+    .mobile-width:hover .earth-image {
+        opacity: 0.3;
+        cursor: pointer;
+    }
+
+    .mobile-width:hover .deep-earth {
+        color: var(--black);
+        cursor: pointer;
+    }
+
+    .mobile-width:hover .night {
+        color: var(--black);
+        cursor: pointer;
+    }
+
+    .mobile-width:hover .above {
+        color: var(--black);
+        cursor: pointer;
+    }
+    .mobile-width:hover .the {
+        color: var(--black);
+        cursor: pointer;
+    }
+
+    .spaces {
+        display: none;
+    }
+
+    .mobile-space {
+        margin-top: 5rem;
+        display: block;
+        background-color: var(--black);
+    }
+    
+    .loop-h2 {
+        color: var(--white);
+        font-size: 24px;
+        font-family: var(--ff-alata);
+        font-weight: 400;
+    }
+
+    .events p {
+        font-size: 15px;
+        font-family: var(--ff-alata);
+        font-weight: 400;
+        color: var(--white);
+        position: relative;
+        text-decoration: none;
+    }
+    
+    .events p:after {
+        content: "";
+        position: absolute;
+        background-color: var(--white);
+        height: 2px;
+        /* width: 100%; */
+        width: 0;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        margin: 0 auto;
+    }
+    
+    .events p:hover:after {
+        width: 9%;
+        text-align: center;
+    }
+    
+    .event p:hover {
+        cursor: pointer;
+    }
+
+    .gaps {
+        margin: 0 auto;
+        gap: 14px;
+
+    }
+
+   
+   
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    .loop-studio h1 {
+        font-size: 30px;
+    }
+
+    .omo {
+        padding: 30px 0 !important;
+    }
+
+    .immerse-border h1 {
+        /* width: 100%; */
+        font-size: 30px;
+        padding: 20px 20px 4px 20px;
+        width: 280px;
+
+    }
+
+    .immerse-border {
+        margin-top: 3.7rem !important;
+        width: 40%;
+    }
+
+    .loopimage {
+        height: 400px;
+    }
+
+    .section-2 {
+        margin-top: 3.3rem;
+        padding: 0 ;
+        margin-bottom: 4rem;
+    }
+
+    .loopimage {
+        height: 21.8rem;
+    }
+
+    .leader{
+        padding: 50px 50px 20px 50px;
+        width: 50%;
+        top: 31% ;
+        right: 10%;
+    }
+
+    .leader h1 {
+        font-size: 30px;
+    }
+
+    .leader p {
+        /* width: 100%; */
+        width: 307px;
+    }
+    
+    .loop-imagess {
+        width: 50%;
+    }
+
+    .desktop-image-text {
+        display: block;
+        margin-top: 9rem;
+    }
+
+    .mobile-image-text {
+        display: none;
+    }
+
+    .our {
+        font-size: 27px;
+    }
+
+    .loop-h3{
+        font-size: 25px;
+    }
+
+    .event {
+        gap: 10px !important;
+    }
+
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    .immerse-border h1 {
+        padding: 20px 20px 4px 20px;
+        width: 400px !important;
+
+    }
+
+    .back-image {
+        height: 30rem;
+    }
+ 
+     .immerse-border {
+        margin-top: 4rem !important;
+        width: 44%;
+    } 
+
+    .leader{
+        padding: 40px 40px 20px 40px;
+        width: 50%;
+        top: 39% ;
+        right: 8% ;
+    }
+
+    .leader p {
+        /* width: 100%; */
+        width: 420px;
+    }
+
+    .section-2 {
+        margin-top: 5rem;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    /* .back-image{
+        height: 35rem;
+    } */
+
+    /* .section-2 {
+        margin-top: 0;
+    } */
+}
